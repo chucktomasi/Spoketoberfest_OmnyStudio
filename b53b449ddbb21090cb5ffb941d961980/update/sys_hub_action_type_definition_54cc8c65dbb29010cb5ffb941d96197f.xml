@@ -1,0 +1,3369 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Playlist">80788061dbb29010cb5ffb941d961926</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Retrieve a playlist specified by the playlist ID</description>
+        <ih_action>true</ih_action>
+        <internal_name>retrieve_a_playlist</internal_name>
+        <label_cache>[{"name":"{{action.playlist_id}}","label":"action➛Playlist ID","type":"action","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[5f7c1989-138c-44d9-b91a-3a5944dc5f09].Playlist}}","label":"step➛JSON Parser step➛Playlist","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>09f5002cdba7d010c296f3c61d9619c3</latest_snapshot>
+        <master_snapshot>703400a8dba7d010c296f3c61d9619b5</master_snapshot>
+        <name>Retrieve a playlist</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:48:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>54cc8c65dbb29010cb5ffb941d96197f</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Retrieve a playlist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_54cc8c65dbb29010cb5ffb941d96197f</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:25</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=54cc8c65dbb29010cb5ffb941d96197f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=54cc8c65dbb29010cb5ffb941d96197f"/>
+    <sys_element_mapping action="delete_multiple" query="id=54cc8c65dbb29010cb5ffb941d96197f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_code</field>
+        <id>54cc8c65dbb29010cb5ffb941d96197f</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:27:05</sys_created_on>
+        <sys_id>c0c488a8dba7d010c296f3c61d96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:27:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>54cc8c65dbb29010cb5ffb941d96197f</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:27:05</sys_created_on>
+        <sys_id>00c488a8dba7d010c296f3c61d96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:27:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>playlist</field>
+        <id>54cc8c65dbb29010cb5ffb941d96197f</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>4b8dc0e5dbb29010cb5ffb941d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</table>
+        <value>{{step[5f7c1989-138c-44d9-b91a-3a5944dc5f09].Playlist}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>54cc8c65dbb29010cb5ffb941d96197f</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:31:41</sys_created_on>
+        <sys_id>53c5c8e8dba7d010c296f3c61d9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:31:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=54cc8c65dbb29010cb5ffb941d96197f^sys_idNOT IN328dc0e5dbb29010cb5ffb941d96190e,380d48a5dbb29010cb5ffb941d961964"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</action>
+        <cid>5f7c1989-138c-44d9-b91a-3a5944dc5f09</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>328dc0e5dbb29010cb5ffb941d96190e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=328dc0e5dbb29010cb5ffb941d96190e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>328dc0e5dbb29010cb5ffb941d96190e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>438dc0e5dbb29010cb5ffb941d96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>328dc0e5dbb29010cb5ffb941d96190e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>8f8dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>{
+  "Id": "62c03853-0d6b-45ed-88ea-abff01797007",
+  "Title": "Break Point",
+  "Slug": "podcast",
+  "Description": "Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.",
+  "DescriptionHtml": "&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;",
+  "ProgramId": "482f14e7-034f-4f55-a28a-abff01781da7",
+  "RssFeedUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss",
+  "EmbedUrl": "https://omny.fm/shows/break-point/playlists/podcast/embed",
+  "ArtworkUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium",
+  "NumberOfClips": 4,
+  "Visibility": "Public",
+  "Categories": [],
+  "DirectoryLinks": {
+    "ApplePodcasts": "https://podcasts.apple.com/us/podcast/break-point/id1526244528",
+    "GooglePodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg",
+    "Spotify": "https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18",
+    "Stitcher": "https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point",
+    "TuneIn": "https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/",
+    "GooglePlay": null,
+    "RssFeed": "https://omny.fm/shows/break-point/playlists/podcast.rss"
+  }
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>328dc0e5dbb29010cb5ffb941d96190e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>cb8dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>{"name":"Playlist","children":[{"name":"Id","children":[],"type":"string","jpath":"$.Id","previewValue":"62c03853-0d6b-45ed-88ea-abff01797007"},{"name":"Title","children":[],"type":"string","jpath":"$.Title","previewValue":"Break Point"},{"name":"Slug","children":[],"type":"string","jpath":"$.Slug","previewValue":"podcast"},{"name":"Description","children":[],"type":"string","jpath":"$.Description","previewValue":"Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point."},{"name":"DescriptionHtml","children":[],"type":"string","jpath":"$.DescriptionHtml","previewValue":"&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;"},{"name":"ProgramId","children":[],"type":"string","jpath":"$.ProgramId","previewValue":"482f14e7-034f-4f55-a28a-abff01781da7"},{"name":"RssFeedUrl","children":[],"type":"string","jpath":"$.RssFeedUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss"},{"name":"EmbedUrl","children":[],"type":"string","jpath":"$.EmbedUrl","previewValue":"https://omny.fm/shows/break-point/playlists/podcast/embed"},{"name":"ArtworkUrl","children":[],"type":"string","jpath":"$.ArtworkUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium"},{"name":"NumberOfClips","children":[],"type":"string","jpath":"$.NumberOfClips","previewValue":"4"},{"name":"Visibility","children":[],"type":"string","jpath":"$.Visibility","previewValue":"Public"},{"name":"Categories","children":[{"name":"Categories_string","children":[],"type":"string","jpath":"$.Categories[*]","previewValue":""}],"type":"array.string","jpath":"$.Categories[*]","previewValue":""},{"name":"DirectoryLinks","children":[{"name":"ApplePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.ApplePodcasts","previewValue":"https://podcasts.apple.com/us/podcast/break-point/id1526244528"},{"name":"GooglePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePodcasts","previewValue":"https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg"},{"name":"Spotify","children":[],"type":"string","jpath":"$.DirectoryLinks.Spotify","previewValue":"https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18"},{"name":"Stitcher","children":[],"type":"string","jpath":"$.DirectoryLinks.Stitcher","previewValue":"https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point"},{"name":"TuneIn","children":[],"type":"string","jpath":"$.DirectoryLinks.TuneIn","previewValue":"https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/"},{"name":"GooglePlay","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePlay","previewValue":""},{"name":"RssFeed","children":[],"type":"string","jpath":"$.DirectoryLinks.RssFeed","previewValue":"https://omny.fm/shows/break-point/playlists/podcast.rss"}],"type":"object","jpath":"$.DirectoryLinks","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=328dc0e5dbb29010cb5ffb941d96190e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>878dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>4b8dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>038dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>c38dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=328dc0e5dbb29010cb5ffb941d96190e^sys_idNOT IN3a8dc0e5dbb29010cb5ffb941d961913"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDbbb448a8e3a7d0100114472e482cc6eb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3968a726-1b03-4b57-ba5d-306de540e6f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Playlist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">328dc0e5dbb29010cb5ffb941d96190e</model>
+        <model_id>328dc0e5dbb29010cb5ffb941d96190e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_328dc0e5dbb29010cb5ffb941d96190e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>3a8dc0e5dbb29010cb5ffb941d961913</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:27:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</action>
+        <cid>5b8774ca-34c3-477e-afca-99247ff7e90c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>380d48a5dbb29010cb5ffb941d961964</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=380d48a5dbb29010cb5ffb941d961964"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>010d48a5dbb29010cb5ffb941d961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>050d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>326c88dddbb21090cb5ffb941d961952</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>410d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>4d0d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>https://api.omnystudio.com/v0</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>890d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>b68dc0e5dbb29010cb5ffb941d96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>c50d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=380d48a5dbb29010cb5ffb941d961964"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>cd0d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>0d0d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>490d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>010d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>850d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"OmnyToken {{step[5b8774ca-34c3-477e-afca-99247ff7e90c].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>368dc0e5dbb29010cb5ffb941d96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>c10d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/playlists/{{action.playlist_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>4d0d48a5dbb29010cb5ffb941d961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=380d48a5dbb29010cb5ffb941d961964^sys_idNOT INc10d48a5dbb29010cb5ffb941d961979"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5705ef4-f324-4cd0-a952-24d1f0aab274</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">380d48a5dbb29010cb5ffb941d961964</model>
+        <model_id>380d48a5dbb29010cb5ffb941d961964</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_380d48a5dbb29010cb5ffb941d961964</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>c10d48a5dbb29010cb5ffb941d961979</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=54cc8c65dbb29010cb5ffb941d96197f^sys_idNOT INb80d48a5dbb29010cb5ffb941d96195d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=730524c1-0e67-496c-8dd4-077e4c360bce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>playlist_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</model>
+        <model_id>54cc8c65dbb29010cb5ffb941d96197f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>b80d48a5dbb29010cb5ffb941d96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=54cc8c65dbb29010cb5ffb941d96197f^sys_idNOT IN3bb448a8dba7d010c296f3c61d9619f8,438dc0e5dbb29010cb5ffb941d961920,d3c5c8e8dba7d010c296f3c61d9619e3,ffb448a8dba7d010c296f3c61d9619fd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=0b26b88f-254d-4c3f-a6f4-710a67269bfc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_code</element>
+        <element_prototype display_value="Error Code" element="error_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">d1744b7347622200b4fad7527c9a7105</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</model>
+        <model_id>54cc8c65dbb29010cb5ffb941d96197f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:27:05</sys_created_on>
+        <sys_id>3bb448a8dba7d010c296f3c61d9619f8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDcf8dc0e5a8b29010794880c93bf15e1d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5f7c1989-138c-44d9-b91a-3a5944dc5f09,sourceType=step,sourceUiUniqueId=54005382-8d6a-44a6-ab10-67df05b1b326,uiType=object,uiTypeLabel=Object,uiUniqueId=46ae8bba-8685-460a-b74d-924aab9c9c70</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>playlist</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</model>
+        <model_id>54cc8c65dbb29010cb5ffb941d96197f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>438dc0e5dbb29010cb5ffb941d961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=b45d3cda-bd62-4d70-b822-c2244aea27d6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</model>
+        <model_id>54cc8c65dbb29010cb5ffb941d96197f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:31:40</sys_created_on>
+        <sys_id>d3c5c8e8dba7d010c296f3c61d9619e3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=da614ee7-8e33-4247-869a-a4d0e724a0ac</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_message</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">26a48b7347622200b4fad7527c9a71c0</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</model>
+        <model_id>54cc8c65dbb29010cb5ffb941d96197f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:27:05</sys_created_on>
+        <sys_id>ffb448a8dba7d010c296f3c61d9619fd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=54cc8c65dbb29010cb5ffb941d96197f^sys_idNOT IN328dc0e5dbb29010cb5ffb941d96190e,380d48a5dbb29010cb5ffb941d961964"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</action>
+        <cid>5f7c1989-138c-44d9-b91a-3a5944dc5f09</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>328dc0e5dbb29010cb5ffb941d96190e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=328dc0e5dbb29010cb5ffb941d96190e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>328dc0e5dbb29010cb5ffb941d96190e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>438dc0e5dbb29010cb5ffb941d96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>328dc0e5dbb29010cb5ffb941d96190e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>8f8dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>{
+  "Id": "62c03853-0d6b-45ed-88ea-abff01797007",
+  "Title": "Break Point",
+  "Slug": "podcast",
+  "Description": "Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.",
+  "DescriptionHtml": "&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;",
+  "ProgramId": "482f14e7-034f-4f55-a28a-abff01781da7",
+  "RssFeedUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss",
+  "EmbedUrl": "https://omny.fm/shows/break-point/playlists/podcast/embed",
+  "ArtworkUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium",
+  "NumberOfClips": 4,
+  "Visibility": "Public",
+  "Categories": [],
+  "DirectoryLinks": {
+    "ApplePodcasts": "https://podcasts.apple.com/us/podcast/break-point/id1526244528",
+    "GooglePodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg",
+    "Spotify": "https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18",
+    "Stitcher": "https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point",
+    "TuneIn": "https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/",
+    "GooglePlay": null,
+    "RssFeed": "https://omny.fm/shows/break-point/playlists/podcast.rss"
+  }
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>328dc0e5dbb29010cb5ffb941d96190e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>cb8dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>{"name":"Playlist","children":[{"name":"Id","children":[],"type":"string","jpath":"$.Id","previewValue":"62c03853-0d6b-45ed-88ea-abff01797007"},{"name":"Title","children":[],"type":"string","jpath":"$.Title","previewValue":"Break Point"},{"name":"Slug","children":[],"type":"string","jpath":"$.Slug","previewValue":"podcast"},{"name":"Description","children":[],"type":"string","jpath":"$.Description","previewValue":"Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point."},{"name":"DescriptionHtml","children":[],"type":"string","jpath":"$.DescriptionHtml","previewValue":"&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;"},{"name":"ProgramId","children":[],"type":"string","jpath":"$.ProgramId","previewValue":"482f14e7-034f-4f55-a28a-abff01781da7"},{"name":"RssFeedUrl","children":[],"type":"string","jpath":"$.RssFeedUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss"},{"name":"EmbedUrl","children":[],"type":"string","jpath":"$.EmbedUrl","previewValue":"https://omny.fm/shows/break-point/playlists/podcast/embed"},{"name":"ArtworkUrl","children":[],"type":"string","jpath":"$.ArtworkUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium"},{"name":"NumberOfClips","children":[],"type":"string","jpath":"$.NumberOfClips","previewValue":"4"},{"name":"Visibility","children":[],"type":"string","jpath":"$.Visibility","previewValue":"Public"},{"name":"Categories","children":[{"name":"Categories_string","children":[],"type":"string","jpath":"$.Categories[*]","previewValue":""}],"type":"array.string","jpath":"$.Categories[*]","previewValue":""},{"name":"DirectoryLinks","children":[{"name":"ApplePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.ApplePodcasts","previewValue":"https://podcasts.apple.com/us/podcast/break-point/id1526244528"},{"name":"GooglePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePodcasts","previewValue":"https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg"},{"name":"Spotify","children":[],"type":"string","jpath":"$.DirectoryLinks.Spotify","previewValue":"https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18"},{"name":"Stitcher","children":[],"type":"string","jpath":"$.DirectoryLinks.Stitcher","previewValue":"https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point"},{"name":"TuneIn","children":[],"type":"string","jpath":"$.DirectoryLinks.TuneIn","previewValue":"https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/"},{"name":"GooglePlay","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePlay","previewValue":""},{"name":"RssFeed","children":[],"type":"string","jpath":"$.DirectoryLinks.RssFeed","previewValue":"https://omny.fm/shows/break-point/playlists/podcast.rss"}],"type":"object","jpath":"$.DirectoryLinks","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=328dc0e5dbb29010cb5ffb941d96190e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>878dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>4b8dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>038dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>328dc0e5dbb29010cb5ffb941d96190e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>c38dc0e5dbb29010cb5ffb941d96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=328dc0e5dbb29010cb5ffb941d96190e^sys_idNOT IN3a8dc0e5dbb29010cb5ffb941d961913"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDbbb448a8e3a7d0100114472e482cc6eb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3968a726-1b03-4b57-ba5d-306de540e6f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Playlist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">328dc0e5dbb29010cb5ffb941d96190e</model>
+        <model_id>328dc0e5dbb29010cb5ffb941d96190e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_328dc0e5dbb29010cb5ffb941d96190e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>3a8dc0e5dbb29010cb5ffb941d961913</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:27:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</action>
+        <cid>5b8774ca-34c3-477e-afca-99247ff7e90c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>380d48a5dbb29010cb5ffb941d961964</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=380d48a5dbb29010cb5ffb941d961964"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>010d48a5dbb29010cb5ffb941d961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>050d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>326c88dddbb21090cb5ffb941d961952</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>410d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>4d0d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>https://api.omnystudio.com/v0</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>890d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>b68dc0e5dbb29010cb5ffb941d96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>380d48a5dbb29010cb5ffb941d961964</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>c50d48a5dbb29010cb5ffb941d961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=380d48a5dbb29010cb5ffb941d961964"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>cd0d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>0d0d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>490d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>010d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>850d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"OmnyToken {{step[5b8774ca-34c3-477e-afca-99247ff7e90c].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>368dc0e5dbb29010cb5ffb941d96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>c10d48a5dbb29010cb5ffb941d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/playlists/{{action.playlist_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>380d48a5dbb29010cb5ffb941d961964</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>4d0d48a5dbb29010cb5ffb941d961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=380d48a5dbb29010cb5ffb941d961964^sys_idNOT INc10d48a5dbb29010cb5ffb941d961979"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5705ef4-f324-4cd0-a952-24d1f0aab274</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">380d48a5dbb29010cb5ffb941d961964</model>
+        <model_id>380d48a5dbb29010cb5ffb941d961964</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_380d48a5dbb29010cb5ffb941d961964</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>c10d48a5dbb29010cb5ffb941d961979</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_54cc8c65dbb29010cb5ffb941d96197f^sys_idNOT INf40d48a5dbb29010cb5ffb941d961962"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>playlist_id</element>
+        <help/>
+        <hint/>
+        <label>Playlist ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:50:02</sys_created_on>
+        <sys_id>f40d48a5dbb29010cb5ffb941d961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:50:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f^sys_idNOT IN038dc0e5dbb29010cb5ffb941d961925,3fb448a8dba7d010c296f3c61d9619fc,d7c5c8e8dba7d010c296f3c61d9619e7,f3b488a8dba7d010c296f3c61d961902"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>playlist</element>
+        <help/>
+        <hint/>
+        <label>Playlist</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:52:21</sys_created_on>
+        <sys_id>038dc0e5dbb29010cb5ffb941d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:52:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_code</element>
+        <help/>
+        <hint/>
+        <label>Error code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:27:05</sys_created_on>
+        <sys_id>3fb448a8dba7d010c296f3c61d9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:27:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status_code</element>
+        <help/>
+        <hint/>
+        <label>Status code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:31:40</sys_created_on>
+        <sys_id>d7c5c8e8dba7d010c296f3c61d9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:31:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_message</element>
+        <help/>
+        <hint/>
+        <label>Error message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_54cc8c65dbb29010cb5ffb941d96197f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:27:05</sys_created_on>
+        <sys_id>f3b488a8dba7d010c296f3c61d961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:27:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=54cc8c65dbb29010cb5ffb941d96197f^sys_idNOT IN793440a8dba7d010c296f3c61d9619ac"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"793440a8dba7d010c296f3c61d9619ac","name":"plan"}}</plan>
+        <snapshot>09f5002cdba7d010c296f3c61d9619c3</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>793440a8dba7d010c296f3c61d9619ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:28</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Playlist">80788061dbb29010cb5ffb941d961926</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Retrieve a playlist specified by the playlist ID</description>
+        <internal_name>retrieve_a_playlist</internal_name>
+        <label_cache>[{"name":"{{action.playlist_id}}","label":"action➛Playlist ID","type":"action","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[5f7c1989-138c-44d9-b91a-3a5944dc5f09].Playlist}}","label":"step➛JSON Parser step➛Playlist","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Retrieve a playlist</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Retrieve a playlist">54cc8c65dbb29010cb5ffb941d96197f</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>703400a8dba7d010c296f3c61d9619b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:23</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=703400a8dba7d010c296f3c61d9619b5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=703400a8dba7d010c296f3c61d9619b5"/>
+    <sys_element_mapping action="delete_multiple" query="id=703400a8dba7d010c296f3c61d9619b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_code</field>
+        <id>703400a8dba7d010c296f3c61d9619b5</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:29:08</sys_created_on>
+        <sys_id>8a3580e8dba7d010c296f3c61d961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:29:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>703400a8dba7d010c296f3c61d9619b5</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:29:08</sys_created_on>
+        <sys_id>c63580e8dba7d010c296f3c61d961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:29:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>playlist</field>
+        <id>703400a8dba7d010c296f3c61d9619b5</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:43</sys_created_on>
+        <sys_id>953400a8dba7d010c296f3c61d9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</table>
+        <value>{{step[5f7c1989-138c-44d9-b91a-3a5944dc5f09].Playlist}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>703400a8dba7d010c296f3c61d9619b5</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:32:24</sys_created_on>
+        <sys_id>cef5402cdba7d010c296f3c61d9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <table>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=703400a8dba7d010c296f3c61d9619b5^sys_idNOT IN8d3400a8dba7d010c296f3c61d9619bc,c93400a8dba7d010c296f3c61d9619d4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</action>
+        <cid>5b8774ca-34c3-477e-afca-99247ff7e90c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>8d3400a8dba7d010c296f3c61d9619bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8d3400a8dba7d010c296f3c61d9619bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>053400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>https://api.omnystudio.com/v0</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>093400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>413400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>893400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>8d3400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c93400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>326c88dddbb21090cb5ffb941d961952</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8d3400a8dba7d010c296f3c61d9619bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c13400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>013400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>4d3400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>053400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>893400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"OmnyToken {{step[5b8774ca-34c3-477e-afca-99247ff7e90c].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>853400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/playlists/{{action.playlist_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>413400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8d3400a8dba7d010c296f3c61d9619bc^sys_idNOT INc53400a8dba7d010c296f3c61d9619c3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5705ef4-f324-4cd0-a952-24d1f0aab274</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">8d3400a8dba7d010c296f3c61d9619bc</model>
+        <model_id>8d3400a8dba7d010c296f3c61d9619bc</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8d3400a8dba7d010c296f3c61d9619bc</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</action>
+        <cid>5f7c1989-138c-44d9-b91a-3a5944dc5f09</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c93400a8dba7d010c296f3c61d9619d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c93400a8dba7d010c296f3c61d9619d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c93400a8dba7d010c296f3c61d9619d4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>4d3400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c93400a8dba7d010c296f3c61d9619d4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>893400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{
+  "Id": "62c03853-0d6b-45ed-88ea-abff01797007",
+  "Title": "Break Point",
+  "Slug": "podcast",
+  "Description": "Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.",
+  "DescriptionHtml": "&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;",
+  "ProgramId": "482f14e7-034f-4f55-a28a-abff01781da7",
+  "RssFeedUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss",
+  "EmbedUrl": "https://omny.fm/shows/break-point/playlists/podcast/embed",
+  "ArtworkUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium",
+  "NumberOfClips": 4,
+  "Visibility": "Public",
+  "Categories": [],
+  "DirectoryLinks": {
+    "ApplePodcasts": "https://podcasts.apple.com/us/podcast/break-point/id1526244528",
+    "GooglePodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg",
+    "Spotify": "https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18",
+    "Stitcher": "https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point",
+    "TuneIn": "https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/",
+    "GooglePlay": null,
+    "RssFeed": "https://omny.fm/shows/break-point/playlists/podcast.rss"
+  }
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c93400a8dba7d010c296f3c61d9619d4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{"name":"Playlist","children":[{"name":"Id","children":[],"type":"string","jpath":"$.Id","previewValue":"62c03853-0d6b-45ed-88ea-abff01797007"},{"name":"Title","children":[],"type":"string","jpath":"$.Title","previewValue":"Break Point"},{"name":"Slug","children":[],"type":"string","jpath":"$.Slug","previewValue":"podcast"},{"name":"Description","children":[],"type":"string","jpath":"$.Description","previewValue":"Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point."},{"name":"DescriptionHtml","children":[],"type":"string","jpath":"$.DescriptionHtml","previewValue":"&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;"},{"name":"ProgramId","children":[],"type":"string","jpath":"$.ProgramId","previewValue":"482f14e7-034f-4f55-a28a-abff01781da7"},{"name":"RssFeedUrl","children":[],"type":"string","jpath":"$.RssFeedUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss"},{"name":"EmbedUrl","children":[],"type":"string","jpath":"$.EmbedUrl","previewValue":"https://omny.fm/shows/break-point/playlists/podcast/embed"},{"name":"ArtworkUrl","children":[],"type":"string","jpath":"$.ArtworkUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium"},{"name":"NumberOfClips","children":[],"type":"string","jpath":"$.NumberOfClips","previewValue":"4"},{"name":"Visibility","children":[],"type":"string","jpath":"$.Visibility","previewValue":"Public"},{"name":"Categories","children":[{"name":"Categories_string","children":[],"type":"string","jpath":"$.Categories[*]","previewValue":""}],"type":"array.string","jpath":"$.Categories[*]","previewValue":""},{"name":"DirectoryLinks","children":[{"name":"ApplePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.ApplePodcasts","previewValue":"https://podcasts.apple.com/us/podcast/break-point/id1526244528"},{"name":"GooglePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePodcasts","previewValue":"https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg"},{"name":"Spotify","children":[],"type":"string","jpath":"$.DirectoryLinks.Spotify","previewValue":"https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18"},{"name":"Stitcher","children":[],"type":"string","jpath":"$.DirectoryLinks.Stitcher","previewValue":"https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point"},{"name":"TuneIn","children":[],"type":"string","jpath":"$.DirectoryLinks.TuneIn","previewValue":"https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/"},{"name":"GooglePlay","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePlay","previewValue":""},{"name":"RssFeed","children":[],"type":"string","jpath":"$.DirectoryLinks.RssFeed","previewValue":"https://omny.fm/shows/break-point/playlists/podcast.rss"}],"type":"object","jpath":"$.DirectoryLinks","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c93400a8dba7d010c296f3c61d9619d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>813400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>453400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>0d3400a8dba7d010c296f3c61d9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>cd3400a8dba7d010c296f3c61d9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c93400a8dba7d010c296f3c61d9619d4^sys_idNOT IN853400a8dba7d010c296f3c61d9619d9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD7df5402c02a7d010d9772ae9fff8f458,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3968a726-1b03-4b57-ba5d-306de540e6f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Playlist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">c93400a8dba7d010c296f3c61d9619d4</model>
+        <model_id>c93400a8dba7d010c296f3c61d9619d4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c93400a8dba7d010c296f3c61d9619d4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>853400a8dba7d010c296f3c61d9619d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=703400a8dba7d010c296f3c61d9619b5^sys_idNOT INb03400a8dba7d010c296f3c61d9619b6"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=730524c1-0e67-496c-8dd4-077e4c360bce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>playlist_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</model>
+        <model_id>703400a8dba7d010c296f3c61d9619b5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_703400a8dba7d010c296f3c61d9619b5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:41</sys_created_on>
+        <sys_id>b03400a8dba7d010c296f3c61d9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=703400a8dba7d010c296f3c61d9619b5^sys_idNOT IN063580e8dba7d010c296f3c61d96194f,b9f5402cdba7d010c296f3c61d961997,ca3580e8dba7d010c296f3c61d961954,cd3400a8dba7d010c296f3c61d9619e5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=0b26b88f-254d-4c3f-a6f4-710a67269bfc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_code</element>
+        <element_prototype display_value="Error Code" element="error_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">d1744b7347622200b4fad7527c9a7105</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</model>
+        <model_id>703400a8dba7d010c296f3c61d9619b5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:29:08</sys_created_on>
+        <sys_id>063580e8dba7d010c296f3c61d96194f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=b45d3cda-bd62-4d70-b822-c2244aea27d6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</model>
+        <model_id>703400a8dba7d010c296f3c61d9619b5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:32:24</sys_created_on>
+        <sys_id>b9f5402cdba7d010c296f3c61d961997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=da614ee7-8e33-4247-869a-a4d0e724a0ac</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_message</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">26a48b7347622200b4fad7527c9a71c0</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</model>
+        <model_id>703400a8dba7d010c296f3c61d9619b5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:29:08</sys_created_on>
+        <sys_id>ca3580e8dba7d010c296f3c61d961954</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD7df5402c1ea7d010571048edf2557962,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5f7c1989-138c-44d9-b91a-3a5944dc5f09,sourceType=step,sourceUiUniqueId=54005382-8d6a-44a6-ab10-67df05b1b326,uiType=object,uiTypeLabel=Object,uiUniqueId=46ae8bba-8685-460a-b74d-924aab9c9c70</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>playlist</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</model>
+        <model_id>703400a8dba7d010c296f3c61d9619b5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>cd3400a8dba7d010c296f3c61d9619e5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=703400a8dba7d010c296f3c61d9619b5^sys_idNOT IN8d3400a8dba7d010c296f3c61d9619bc,c93400a8dba7d010c296f3c61d9619d4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</action>
+        <cid>5b8774ca-34c3-477e-afca-99247ff7e90c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>8d3400a8dba7d010c296f3c61d9619bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8d3400a8dba7d010c296f3c61d9619bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>053400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>https://api.omnystudio.com/v0</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>093400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>413400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>893400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>8d3400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8d3400a8dba7d010c296f3c61d9619bc</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c93400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>326c88dddbb21090cb5ffb941d961952</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8d3400a8dba7d010c296f3c61d9619bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c13400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>013400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>4d3400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>053400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>893400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"OmnyToken {{step[5b8774ca-34c3-477e-afca-99247ff7e90c].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>853400a8dba7d010c296f3c61d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/playlists/{{action.playlist_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>8d3400a8dba7d010c296f3c61d9619bc</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>413400a8dba7d010c296f3c61d9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8d3400a8dba7d010c296f3c61d9619bc^sys_idNOT INc53400a8dba7d010c296f3c61d9619c3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5705ef4-f324-4cd0-a952-24d1f0aab274</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">8d3400a8dba7d010c296f3c61d9619bc</model>
+        <model_id>8d3400a8dba7d010c296f3c61d9619bc</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8d3400a8dba7d010c296f3c61d9619bc</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Retrieve a playlist">703400a8dba7d010c296f3c61d9619b5</action>
+        <cid>5f7c1989-138c-44d9-b91a-3a5944dc5f09</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c93400a8dba7d010c296f3c61d9619d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c93400a8dba7d010c296f3c61d9619d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c93400a8dba7d010c296f3c61d9619d4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>4d3400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c93400a8dba7d010c296f3c61d9619d4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>893400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{
+  "Id": "62c03853-0d6b-45ed-88ea-abff01797007",
+  "Title": "Break Point",
+  "Slug": "podcast",
+  "Description": "Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.",
+  "DescriptionHtml": "&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;",
+  "ProgramId": "482f14e7-034f-4f55-a28a-abff01781da7",
+  "RssFeedUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss",
+  "EmbedUrl": "https://omny.fm/shows/break-point/playlists/podcast/embed",
+  "ArtworkUrl": "https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium",
+  "NumberOfClips": 4,
+  "Visibility": "Public",
+  "Categories": [],
+  "DirectoryLinks": {
+    "ApplePodcasts": "https://podcasts.apple.com/us/podcast/break-point/id1526244528",
+    "GooglePodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg",
+    "Spotify": "https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18",
+    "Stitcher": "https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point",
+    "TuneIn": "https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/",
+    "GooglePlay": null,
+    "RssFeed": "https://omny.fm/shows/break-point/playlists/podcast.rss"
+  }
+}</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c93400a8dba7d010c296f3c61d9619d4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>c53400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <value>{"name":"Playlist","children":[{"name":"Id","children":[],"type":"string","jpath":"$.Id","previewValue":"62c03853-0d6b-45ed-88ea-abff01797007"},{"name":"Title","children":[],"type":"string","jpath":"$.Title","previewValue":"Break Point"},{"name":"Slug","children":[],"type":"string","jpath":"$.Slug","previewValue":"podcast"},{"name":"Description","children":[],"type":"string","jpath":"$.Description","previewValue":"Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point."},{"name":"DescriptionHtml","children":[],"type":"string","jpath":"$.DescriptionHtml","previewValue":"&lt;p&gt;Break Point is the podcast for ServiceNow admins, developers, and builders of all skill levels. Join your host, Chuck Tomasi, Sr. Developer Evangelist, as he interviews ServiceNow product managers and developers about the Now Platform features. Chuck also interviews ServiceNow customers to discuss apps they've built, challenges they faced, and how they solved them. Take a break with Break Point.&lt;/p&gt;"},{"name":"ProgramId","children":[],"type":"string","jpath":"$.ProgramId","previewValue":"482f14e7-034f-4f55-a28a-abff01781da7"},{"name":"RssFeedUrl","children":[],"type":"string","jpath":"$.RssFeedUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/podcast.rss"},{"name":"EmbedUrl","children":[],"type":"string","jpath":"$.EmbedUrl","previewValue":"https://omny.fm/shows/break-point/playlists/podcast/embed"},{"name":"ArtworkUrl","children":[],"type":"string","jpath":"$.ArtworkUrl","previewValue":"https://www.omnycontent.com/d/playlist/922e0f19-2d84-4485-835c-a83f00036b00/482f14e7-034f-4f55-a28a-abff01781da7/62c03853-0d6b-45ed-88ea-abff01797007/image.jpg?t=1597690112&amp;size=Medium"},{"name":"NumberOfClips","children":[],"type":"string","jpath":"$.NumberOfClips","previewValue":"4"},{"name":"Visibility","children":[],"type":"string","jpath":"$.Visibility","previewValue":"Public"},{"name":"Categories","children":[{"name":"Categories_string","children":[],"type":"string","jpath":"$.Categories[*]","previewValue":""}],"type":"array.string","jpath":"$.Categories[*]","previewValue":""},{"name":"DirectoryLinks","children":[{"name":"ApplePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.ApplePodcasts","previewValue":"https://podcasts.apple.com/us/podcast/break-point/id1526244528"},{"name":"GooglePodcasts","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePodcasts","previewValue":"https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvOTIyZTBmMTktMmQ4NC00NDg1LTgzNWMtYTgzZjAwMDM2YjAwLzQ4MmYxNGU3LTAzNGYtNGY1NS1hMjhhLWFiZmYwMTc4MWRhNy82MmMwMzg1My0wZDZiLTQ1ZWQtODhlYS1hYmZmMDE3OTcwMDcvcG9kY2FzdC5yc3M?sa=X&amp;ved=0CBYQ27cFahcKEwjY3diHmYDrAhUAAAAAHQAAAAAQAg"},{"name":"Spotify","children":[],"type":"string","jpath":"$.DirectoryLinks.Spotify","previewValue":"https://open.spotify.com/show/20gZbxGmf7c1WperGjzg18"},{"name":"Stitcher","children":[],"type":"string","jpath":"$.DirectoryLinks.Stitcher","previewValue":"https://www.stitcher.com/podcast/servicenow-community-podcasts/break-point"},{"name":"TuneIn","children":[],"type":"string","jpath":"$.DirectoryLinks.TuneIn","previewValue":"https://tunein.com/podcasts/Technology-Podcasts/Break-Point-p1350240/"},{"name":"GooglePlay","children":[],"type":"string","jpath":"$.DirectoryLinks.GooglePlay","previewValue":""},{"name":"RssFeed","children":[],"type":"string","jpath":"$.DirectoryLinks.RssFeed","previewValue":"https://omny.fm/shows/break-point/playlists/podcast.rss"}],"type":"object","jpath":"$.DirectoryLinks","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c93400a8dba7d010c296f3c61d9619d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>813400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>453400a8dba7d010c296f3c61d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>0d3400a8dba7d010c296f3c61d9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[5b8774ca-34c3-477e-afca-99247ff7e90c].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>c93400a8dba7d010c296f3c61d9619d4</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>cd3400a8dba7d010c296f3c61d9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c93400a8dba7d010c296f3c61d9619d4^sys_idNOT IN853400a8dba7d010c296f3c61d9619d9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD7df5402c02a7d010d9772ae9fff8f458,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3968a726-1b03-4b57-ba5d-306de540e6f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Playlist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Playlist</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">c93400a8dba7d010c296f3c61d9619d4</model>
+        <model_id>c93400a8dba7d010c296f3c61d9619d4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c93400a8dba7d010c296f3c61d9619d4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>853400a8dba7d010c296f3c61d9619d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_703400a8dba7d010c296f3c61d9619b5^sys_idNOT IN4d3400a8dba7d010c296f3c61d9619ba"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>playlist_id</element>
+        <help/>
+        <hint/>
+        <label>Playlist ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_703400a8dba7d010c296f3c61d9619b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>4d3400a8dba7d010c296f3c61d9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5^sys_idNOT IN0a3580e8dba7d010c296f3c61d961953,0d3400a8dba7d010c296f3c61d9619ea,75f5402cdba7d010c296f3c61d9619a8,863580e8dba7d010c296f3c61d961965"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_code</element>
+        <help/>
+        <hint/>
+        <label>Error code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:29:08</sys_created_on>
+        <sys_id>0a3580e8dba7d010c296f3c61d961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:29:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>playlist</element>
+        <help/>
+        <hint/>
+        <label>Playlist</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:24:42</sys_created_on>
+        <sys_id>0d3400a8dba7d010c296f3c61d9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:24:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status_code</element>
+        <help/>
+        <hint/>
+        <label>Status code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:32:24</sys_created_on>
+        <sys_id>75f5402cdba7d010c296f3c61d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:32:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_message</element>
+        <help/>
+        <hint/>
+        <label>Error message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_703400a8dba7d010c296f3c61d9619b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-25 20:29:08</sys_created_on>
+        <sys_id>863580e8dba7d010c296f3c61d961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-25 20:29:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

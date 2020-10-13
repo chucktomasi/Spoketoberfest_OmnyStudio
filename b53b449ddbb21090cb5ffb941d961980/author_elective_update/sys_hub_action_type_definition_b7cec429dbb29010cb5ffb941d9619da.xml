@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Clip">b1be80a5dbb29010cb5ffb941d961993</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>List all clips</description>
+        <ih_action>false</ih_action>
+        <internal_name>list_clips</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>List clips</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:57:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b7cec429dbb29010cb5ffb941d9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List clips</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b7cec429dbb29010cb5ffb941d9619da</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:57:53</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=b7cec429dbb29010cb5ffb941d9619da"/>
+    <sys_variable_value action="DELETE" query="document_key=b7cec429dbb29010cb5ffb941d9619da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</application>
+        <file_path/>
+        <instance_id>a3cd4c73db359f40536ad5b0cf9619a2</instance_id>
+        <instance_name>technowdev</instance_name>
+        <name>sys_hub_action_type_definition_b7cec429dbb29010cb5ffb941d9619da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="Clip">b1be80a5dbb29010cb5ffb941d961993</category><copied_from/><copied_from_name/><description>List all clips</description><ih_action>false</ih_action><internal_name>list_clips</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>List clips</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2020-08-22 16:57:53</sys_created_on><sys_domain>global</sys_domain><sys_id>b7cec429dbb29010cb5ffb941d9619da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List clips</sys_name><sys_overrides/><sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package><sys_policy/><sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope><sys_update_name>sys_hub_action_type_definition_b7cec429dbb29010cb5ffb941d9619da</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2020-08-22 16:57:53</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=b7cec429dbb29010cb5ffb941d9619da"/><sys_variable_value action="delete_multiple" query="document_key=b7cec429dbb29010cb5ffb941d9619da"/></record_update>]]></payload>
+        <payload_hash>927914392</payload_hash>
+        <record_name>List clips</record_name>
+        <reverted_from/>
+        <source>3d3b449ddbb21090cb5ffb941d961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 16:57:53</sys_created_on>
+        <sys_id>00de8829dbb29010cb5ffb941d961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174171ae8e60000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 16:57:53</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>48de8829c0b29010ad52c04c9d1b5495</update_guid>
+        <update_guid_history>48de8829c0b29010ad52c04c9d1b5495:927914392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-22 17:04:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>6a669a23e4fa497ab06bd850f5628059</sys_id>
+        <sys_metadata>b7cec429dbb29010cb5ffb941d9619da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List clips</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_scope_delete display_value="">7741108c5b004c108637e67419dafe01</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_b7cec429dbb29010cb5ffb941d9619da</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_b7cec429dbb29010cb5ffb941d9619da">00de8829dbb29010cb5ffb941d961996</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-22 17:04:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

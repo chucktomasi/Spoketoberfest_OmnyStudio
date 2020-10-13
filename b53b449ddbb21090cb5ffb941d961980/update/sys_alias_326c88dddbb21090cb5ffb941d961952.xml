@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_orb_omny.Omny_Studio</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Omny_Studio</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-08-21 22:09:30</sys_created_on>
+        <sys_id>326c88dddbb21090cb5ffb941d961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_orb_omny.Omny_Studio</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name>sys_alias_326c88dddbb21090cb5ffb941d961952</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-08-21 22:09:30</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>
