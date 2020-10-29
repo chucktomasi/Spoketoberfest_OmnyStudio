@@ -24,6 +24,7 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-21 22:08:29</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>805c08dddbb21090cb5ffb941d961980</sys_id>
         <sys_mod_count>32</sys_mod_count>
         <sys_name>List all programs</sys_name>
@@ -116,16 +117,11 @@
         <outputs/>
         <section/>
         <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-22 16:00:05</sys_created_on>
         <sys_id>59914029db729010cb5ffb941d961967</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:18:51</sys_updated_on>
     </sys_hub_step_instance>
@@ -420,16 +416,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-21 22:11:41</sys_created_on>
         <sys_id>8b0dc011dbf21090cb5ffb941d96198c</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:27:12</sys_updated_on>
     </sys_hub_step_instance>
@@ -805,16 +796,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-21 22:11:09</sys_created_on>
         <sys_id>cfec8cdddbb21090cb5ffb941d96198c</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:07:11</sys_updated_on>
     </sys_hub_step_instance>
@@ -1291,16 +1277,11 @@
         <outputs/>
         <section/>
         <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-22 16:00:05</sys_created_on>
         <sys_id>59914029db729010cb5ffb941d961967</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:18:51</sys_updated_on>
     </sys_hub_step_instance>
@@ -1595,16 +1576,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-21 22:11:41</sys_created_on>
         <sys_id>8b0dc011dbf21090cb5ffb941d96198c</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:27:12</sys_updated_on>
     </sys_hub_step_instance>
@@ -1980,16 +1956,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-21 22:11:09</sys_created_on>
         <sys_id>cfec8cdddbb21090cb5ffb941d96198c</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:07:11</sys_updated_on>
     </sys_hub_step_instance>
@@ -2299,11 +2270,11 @@
         <sys_created_on>2020-08-22 16:26:15</sys_created_on>
         <sys_id>28970021dbb29010cb5ffb941d96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Count</sys_name>
         <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
         <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_805c08dddbb21090cb5ffb941d961980_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:26:15</sys_updated_on>
         <url/>
@@ -2322,11 +2293,11 @@
         <sys_created_on>2020-08-22 16:22:18</sys_created_on>
         <sys_id>b2a64caddb729010cb5ffb941d96190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Response</sys_name>
         <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
         <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_805c08dddbb21090cb5ffb941d961980_response_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-08-22 16:22:18</sys_updated_on>
         <url/>
@@ -2337,18 +2308,14 @@
         <action_id display_value="List all programs">805c08dddbb21090cb5ffb941d961980</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a536082cdba7d010c296f3c61d961941","name":"plan"}}</plan>
         <snapshot>7326842cdba7d010c296f3c61d9619c3</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:29</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>a536082cdba7d010c296f3c61d961941</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:29</sys_updated_on>
     </sys_hub_action_plan>
@@ -2374,6 +2341,7 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:23</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>5036c42cdba7d010c296f3c61d961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -2442,16 +2410,11 @@
         <outputs/>
         <section/>
         <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:24</sys_created_on>
         <sys_id>5c36c42cdba7d010c296f3c61d96193d</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:24</sys_updated_on>
     </sys_hub_step_instance>
@@ -2746,16 +2709,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:24</sys_created_on>
         <sys_id>6836c42cdba7d010c296f3c61d96194c</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:24</sys_updated_on>
     </sys_hub_step_instance>
@@ -3107,16 +3065,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:23</sys_created_on>
         <sys_id>d836c42cdba7d010c296f3c61d961925</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:23</sys_updated_on>
     </sys_hub_step_instance>
@@ -3593,16 +3546,11 @@
         <outputs/>
         <section/>
         <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:24</sys_created_on>
         <sys_id>5c36c42cdba7d010c296f3c61d96193d</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:24</sys_updated_on>
     </sys_hub_step_instance>
@@ -3897,16 +3845,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:24</sys_created_on>
         <sys_id>6836c42cdba7d010c296f3c61d96194c</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:24</sys_updated_on>
     </sys_hub_step_instance>
@@ -4258,16 +4201,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-25 20:33:23</sys_created_on>
         <sys_id>d836c42cdba7d010c296f3c61d961925</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:23</sys_updated_on>
     </sys_hub_step_instance>
@@ -4577,11 +4515,11 @@
         <sys_created_on>2020-09-25 20:33:24</sys_created_on>
         <sys_id>2836c42cdba7d010c296f3c61d96197f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Count</sys_name>
         <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
         <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5036c42cdba7d010c296f3c61d961924_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:24</sys_updated_on>
         <url/>
@@ -4600,11 +4538,11 @@
         <sys_created_on>2020-09-25 20:33:24</sys_created_on>
         <sys_id>a036c42cdba7d010c296f3c61d96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Response</sys_name>
         <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
         <sys_policy/>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5036c42cdba7d010c296f3c61d961924_response_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-25 20:33:24</sys_updated_on>
         <url/>

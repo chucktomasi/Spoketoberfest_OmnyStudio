@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="filter_by" table="var__m_sys_hub_action_input_e6b0d0a9dbb29010cb5ffb941d9619e2" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>filter_by</element>
+            <name>var__m_sys_hub_action_input_e6b0d0a9dbb29010cb5ffb941d9619e2</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2020-10-13 21:28:43</sys_created_on>
+            <sys_id>a67fb4d22f3b14500b0c58a72799b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>filter_by</sys_name>
+            <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_e6b0d0a9dbb29010cb5ffb941d9619e2_filter_by</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2020-10-13 21:28:43</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filter_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6b0d0a9dbb29010cb5ffb941d9619e2</name>
+            <sequence>0</sequence>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2020-08-22 17:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a254d8addbb29010cb5ffb941d96193a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2020-08-22 17:23:34</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filter_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Title</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6b0d0a9dbb29010cb5ffb941d9619e2</name>
+            <sequence>1</sequence>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2020-08-22 17:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e54d8addbb29010cb5ffb941d96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2020-08-22 17:22:05</sys_updated_on>
+            <value>title</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filter_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Description</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6b0d0a9dbb29010cb5ffb941d9619e2</name>
+            <sequence>2</sequence>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2020-08-22 17:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a54d8addbb29010cb5ffb941d96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2020-08-22 17:22:05</sys_updated_on>
+            <value>description</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
