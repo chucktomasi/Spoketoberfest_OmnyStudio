@@ -8,14 +8,15 @@
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-24 02:13:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>7a779bf9dbb21410cb5ffb941d96196b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDb6779bf94db21410be399175c0f3056b</sys_name>
         <sys_overrides/>
         <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_update_name>sys_complex_object_7a779bf9dbb21410cb5ffb941d96196b</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>

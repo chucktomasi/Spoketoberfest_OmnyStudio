@@ -6,11 +6,13 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>chuck.tomasi</sys_created_by>
             <sys_created_on>2020-10-13 21:28:43</sys_created_on>
-            <sys_id>ea7fb4d22f3b14500b0c58a72799b6e5</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>15c60c8adb6a2c100fa2f9afaa961906</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sort_by</sys_name>
             <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
             <sys_update_name>sys_choice_var__m_sys_hub_action_input_e6b0d0a9dbb29010cb5ffb941d9619e2_sort_by</sys_update_name>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
