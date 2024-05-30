@@ -68,7 +68,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-08-22 17:04:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
         <sys_id>6a669a23e4fa497ab06bd850f5628059</sys_id>
         <sys_metadata>b7cec429dbb29010cb5ffb941d9619da</sys_metadata>
@@ -77,7 +76,6 @@
         <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_scope_delete display_value="">7741108c5b004c108637e67419dafe01</sys_scope_delete>
         <sys_update_name>sys_hub_action_type_definition_b7cec429dbb29010cb5ffb941d9619da</sys_update_name>

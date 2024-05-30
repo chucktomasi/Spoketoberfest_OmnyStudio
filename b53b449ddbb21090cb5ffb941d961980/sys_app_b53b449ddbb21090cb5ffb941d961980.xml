@@ -5,15 +5,18 @@
         <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
+        <ide_created/>
         <installed_as_dependency>false</installed_as_dependency>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license/>
         <license_category>none</license_category>
         <license_definition/>
         <license_model>none</license_model>
         <logo>823bcc5ddbb21090cb5ffb941d961940</logo>
         <menu/>
         <name>Omny Studio Spoke</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -23,6 +26,7 @@
         <source>x_orb_omny</source>
         <store_correlation_id/>
         <store_url/>
+        <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>chuck.tomasi</sys_created_by>
@@ -39,6 +43,7 @@
         <vendor_prefix/>
         <version>1.0.0</version>
     </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=b53b449ddbb21090cb5ffb941d961980"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
         <chunk_size_bytes>700000</chunk_size_bytes>
