@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FD8c27c9817262069463780cf3b9c3d005</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-05 17:05:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1b3fd62e47228210f6002430a46d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Omny clip</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_1b3fd62e47228210f6002430a46d43f5</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-05 17:05:11</sys_updated_on>
+        <template_label>Omny clip</template_label>
+        <template_name>omny_clip</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

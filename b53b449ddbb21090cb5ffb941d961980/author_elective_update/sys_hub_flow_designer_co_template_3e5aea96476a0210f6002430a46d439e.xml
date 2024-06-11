@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="DELETE">
+        <active>true</active>
+        <complex_definition>FDfa5aea96116a0210a2f41d3d2434a19d</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-04 23:15:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3e5aea96476a0210f6002430a46d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Omny Network</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_3e5aea96476a0210f6002430a46d439e</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-04 23:15:17</sys_updated_on>
+        <template_label>Omny Network</template_label>
+        <template_name>omny_network</template_name>
+    </sys_hub_flow_designer_co_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</application>
+        <file_path/>
+        <instance_id>10d10f37dbc465101955c597059619f8</instance_id>
+        <instance_name>devprogramdev</instance_name>
+        <name>sys_hub_flow_designer_co_template_3e5aea96476a0210f6002430a46d439e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template"><sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE"><active>true</active><complex_definition>FDfa5aea96116a0210a2f41d3d2434a19d</complex_definition><sys_class_name>sys_hub_flow_designer_co_template</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-06-04 23:15:17</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3e5aea96476a0210f6002430a46d439e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Omny Network</sys_name><sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope><sys_update_name>sys_hub_flow_designer_co_template_3e5aea96476a0210f6002430a46d439e</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-06-04 23:15:17</sys_updated_on><template_label>Omny Network</template_label><template_name>omny_network</template_name></sys_hub_flow_designer_co_template></record_update>]]></payload>
+        <payload_hash>616080989</payload_hash>
+        <record_name>Omny Network</record_name>
+        <reverted_from/>
+        <source>a99e33a847628294f6002430a46d43cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-04 23:15:17</sys_created_on>
+        <sys_id>f65aea96476a0210f6002430a46d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fe58916c30000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-04 23:15:17</sys_updated_on>
+        <type>Flow Designer Complex Object Templates</type>
+        <update_guid>fa5aea962f6a0210025329ecb6f120a0</update_guid>
+        <update_guid_history>fa5aea962f6a0210025329ecb6f120a0:616080989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-04 23:53:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_flow_designer_co_template">sys_hub_flow_designer_co_template</sys_db_object>
+        <sys_id>173f3c7c619e4254b9db3983987a1e61</sys_id>
+        <sys_metadata>3e5aea96476a0210f6002430a46d439e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Omny Network</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_scope_delete display_value="">7741108c5b004c108637e67419dafe01</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_designer_co_template_3e5aea96476a0210f6002430a46d439e</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_designer_co_template_3e5aea96476a0210f6002430a46d439e">f65aea96476a0210f6002430a46d43a1</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-04 23:53:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

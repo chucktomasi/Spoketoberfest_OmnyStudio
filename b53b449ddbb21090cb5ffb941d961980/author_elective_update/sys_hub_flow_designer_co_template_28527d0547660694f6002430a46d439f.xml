@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="DELETE">
+        <active>true</active>
+        <complex_definition>FD8c27c9817262069463780cf3b9c3d005</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-31 21:58:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>28527d0547660694f6002430a46d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Omny Podcast Clip</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_28527d0547660694f6002430a46d439f</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-31 21:58:03</sys_updated_on>
+        <template_label>Omny Podcast Clip</template_label>
+        <template_name>omny_podcast_clip</template_name>
+    </sys_hub_flow_designer_co_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</application>
+        <file_path/>
+        <instance_id>10d10f37dbc465101955c597059619f8</instance_id>
+        <instance_name>devprogramdev</instance_name>
+        <name>sys_hub_flow_designer_co_template_28527d0547660694f6002430a46d439f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template"><sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE"><active>true</active><complex_definition>FD8c27c9817262069463780cf3b9c3d005</complex_definition><sys_class_name>sys_hub_flow_designer_co_template</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-31 21:58:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>28527d0547660694f6002430a46d439f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Omny Podcast Clip</sys_name><sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope><sys_update_name>sys_hub_flow_designer_co_template_28527d0547660694f6002430a46d439f</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-31 21:58:03</sys_updated_on><template_label>Omny Podcast Clip</template_label><template_name>omny_podcast_clip</template_name></sys_hub_flow_designer_co_template></record_update>]]></payload>
+        <payload_hash>1375300288</payload_hash>
+        <record_name>Omny Podcast Clip</record_name>
+        <reverted_from/>
+        <source>a99e33a847628294f6002430a46d43cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-31 21:58:03</sys_created_on>
+        <sys_id>68527d0547660694f6002430a46d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fd0a8efdb0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-31 21:58:03</sys_updated_on>
+        <type>Flow Designer Complex Object Templates</type>
+        <update_guid>6c527d05166606943440d590a3de84a1</update_guid>
+        <update_guid_history>6c527d05166606943440d590a3de84a1:1375300288</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-05 16:22:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_flow_designer_co_template">sys_hub_flow_designer_co_template</sys_db_object>
+        <sys_id>02039b6b1f4c43168d14095421ee33e4</sys_id>
+        <sys_metadata>28527d0547660694f6002430a46d439f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Omny Podcast Clip</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_scope_delete display_value="">7741108c5b004c108637e67419dafe01</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_designer_co_template_28527d0547660694f6002430a46d439f</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_designer_co_template_28527d0547660694f6002430a46d439f">68527d0547660694f6002430a46d43a2</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-05 16:22:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

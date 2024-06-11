@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Program">152c84dddbb21090cb5ffb941d961957</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Gets a paged list of programs for the organization.</description>
+        <ih_action>false</ih_action>
+        <internal_name>get_programs</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get programs</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-05 13:49:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e752f566472e4210f6002430a46d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get programs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e752f566472e4210f6002430a46d43f0</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-05 13:49:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="DELETE" query="document_key=e752f566472e4210f6002430a46d43f0"/>
+    <sys_hub_step_instance action="DELETE" query="action=e752f566472e4210f6002430a46d43f0"/>
+    <sys_hub_action_input action="DELETE" query="model=e752f566472e4210f6002430a46d43f0"/>
+    <sys_hub_action_output action="DELETE" query="model=e752f566472e4210f6002430a46d43f0"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=e752f566472e4210f6002430a46d43f0"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=e752f566472e4210f6002430a46d43f0"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_e752f566472e4210f6002430a46d43f0"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_e752f566472e4210f6002430a46d43f0"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_e752f566472e4210f6002430a46d43f0"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_e752f566472e4210f6002430a46d43f0"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=e752f566472e4210f6002430a46d43f0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</application>
+        <file_path/>
+        <instance_id>10d10f37dbc465101955c597059619f8</instance_id>
+        <instance_name>devprogramdev</instance_name>
+        <name>sys_hub_action_type_definition_e752f566472e4210f6002430a46d43f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="Program">152c84dddbb21090cb5ffb941d961957</category><compiler_build/><copied_from/><copied_from_name/><description>Gets a paged list of programs for the organization.</description><ih_action>false</ih_action><internal_name>get_programs</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Get programs</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-06-05 13:49:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>e752f566472e4210f6002430a46d43f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Get programs</sys_name><sys_overrides/><sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope><sys_update_name>sys_hub_action_type_definition_e752f566472e4210f6002430a46d43f0</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-06-05 13:49:09</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_variable_value action="delete_multiple" query="document_key=e752f566472e4210f6002430a46d43f0"/><sys_hub_step_instance action="delete_multiple" query="action=e752f566472e4210f6002430a46d43f0"/><sys_hub_action_input action="delete_multiple" query="model=e752f566472e4210f6002430a46d43f0"/><sys_hub_action_output action="delete_multiple" query="model=e752f566472e4210f6002430a46d43f0"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=e752f566472e4210f6002430a46d43f0"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e752f566472e4210f6002430a46d43f0"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e752f566472e4210f6002430a46d43f0"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e752f566472e4210f6002430a46d43f0"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e752f566472e4210f6002430a46d43f0"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_e752f566472e4210f6002430a46d43f0"/><sys_hub_action_plan action="delete_multiple" query="action_id=e752f566472e4210f6002430a46d43f0"/></record_update>]]></payload>
+        <payload_hash>-1477772780</payload_hash>
+        <record_name>Get programs</record_name>
+        <reverted_from/>
+        <source>a99e33a847628294f6002430a46d43cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-05 13:49:09</sys_created_on>
+        <sys_id>2b52f566472e4210f6002430a46d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fe8a922fa0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-05 13:49:09</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>2f52f566632e421019ac5906556536f4</update_guid>
+        <update_guid_history>2f52f566632e421019ac5906556536f4:-1477772780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-05 13:50:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>1e8ae7bb7ca349708c1a40604a847640</sys_id>
+        <sys_metadata>e752f566472e4210f6002430a46d43f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get programs</sys_name>
+        <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
+        <sys_scope_delete display_value="">7741108c5b004c108637e67419dafe01</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_e752f566472e4210f6002430a46d43f0</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_e752f566472e4210f6002430a46d43f0">2b52f566472e4210f6002430a46d43f5</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-05 13:50:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
