@@ -27,7 +27,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c2a2f01247ea4610f6002430a46d434d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Convert Omny time to GlideDateTime</sys_name>
         <sys_overrides/>
         <sys_package display_value="Omny Studio Spoke" source="x_orb_omny">b53b449ddbb21090cb5ffb941d961980</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_c2a2f01247ea4610f6002430a46d434d</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:43:12</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -49,10 +49,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-06-04 14:40:25</sys_created_on>
         <sys_id>788474d247ea4610f6002430a46d432c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:40:25</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-06-12 22:26:54</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">348434d247ea4610f6002430a46d43fe</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -176,7 +176,7 @@
         <sys_created_on>2024-06-04 14:36:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b693fc5247ea4610f6002430a46d434e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -184,7 +184,7 @@
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:40:24</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b693fc5247ea4610f6002430a46d434e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -209,23 +209,32 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-06-04 14:36:27</sys_created_on>
         <sys_id>3a93fc5247ea4610f6002430a46d4362</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:40:24</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:34</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
     var omnyDateStr = inputs.omny_date_time_string;&#13;
     var gdt = new GlideDateTime();&#13;
+    var answer = {&#13;
+        "glide_date_time" : null,&#13;
+        "date_time_display_value" : null,&#13;
+        "date_time_value" : null&#13;
+    };&#13;
 &#13;
     if (omnyDateStr) {&#13;
         var gdtStr = omnyDateStr.toString().replace('T', ' ').replace('Z', '');&#13;
         gdt.setValue(gdtStr);&#13;
+        answer.glide_date_time = gdt;&#13;
+        answer.date_time_display_value = gdt.getDisplayValue();&#13;
+        answer.date_time_value = gdt.getValue();&#13;
+    } else {&#13;
+        gs.error('&gt;&gt;&gt;DEBUG: No input string found, using null values');&#13;
     }&#13;
 &#13;
-    outputs.glide_date_time = gdt;&#13;
-    outputs.date_time_display_value = gdt.getDisplayValue();&#13;
-    outputs.date_time_value = gdt.getValue();&#13;
-&#13;
+    outputs.glide_date_time = answer.glide_date_time;&#13;
+    outputs.date_time_display_value = answer.date_time_display_value;&#13;
+    outputs.date_time_value = answer.date_time_value;&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -932,7 +941,7 @@
         <sys_created_on>2024-06-04 14:40:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>388474d247ea4610f6002430a46d4306</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -940,7 +949,7 @@
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:43:10</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1392,14 +1401,14 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Convert Omny time to GlideDateTime">c2a2f01247ea4610f6002430a46d434d</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8225305647ea4610f6002430a46d4362","name":"plan","plan_signature":null}}</plan>
-        <snapshot>bd25fc1647ea4610f6002430a46d43fb</snapshot>
+        <snapshot>a0beaff447720250f6002430a46d4307</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-06-04 14:43:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8225305647ea4610f6002430a46d4362</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1408,7 +1417,7 @@
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:43:13</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:41</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1471,10 +1480,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-06-04 14:43:12</sys_created_on>
         <sys_id>b925fc1647ea4610f6002430a46d43f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:43:12</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-06-12 22:27:05</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">6d25fc1647ea4610f6002430a46d43df</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1572,7 +1581,7 @@
         <sys_created_on>2024-06-04 14:43:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6125fc1647ea4610f6002430a46d439f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1580,7 +1589,7 @@
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:43:12</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:40</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6125fc1647ea4610f6002430a46d439f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1605,23 +1614,32 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-06-04 14:43:12</sys_created_on>
         <sys_id>2d25fc1647ea4610f6002430a46d43db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:43:12</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:40</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
     var omnyDateStr = inputs.omny_date_time_string;&#13;
     var gdt = new GlideDateTime();&#13;
+    var answer = {&#13;
+        "glide_date_time" : null,&#13;
+        "date_time_display_value" : null,&#13;
+        "date_time_value" : null&#13;
+    };&#13;
 &#13;
     if (omnyDateStr) {&#13;
         var gdtStr = omnyDateStr.toString().replace('T', ' ').replace('Z', '');&#13;
         gdt.setValue(gdtStr);&#13;
+        answer.glide_date_time = gdt;&#13;
+        answer.date_time_display_value = gdt.getDisplayValue();&#13;
+        answer.date_time_value = gdt.getValue();&#13;
+    } else {&#13;
+        gs.error('&gt;&gt;&gt;DEBUG: No input string found, using null values');&#13;
     }&#13;
 &#13;
-    outputs.glide_date_time = gdt;&#13;
-    outputs.date_time_display_value = gdt.getDisplayValue();&#13;
-    outputs.date_time_value = gdt.getValue();&#13;
-&#13;
+    outputs.glide_date_time = answer.glide_date_time;&#13;
+    outputs.date_time_display_value = answer.date_time_display_value;&#13;
+    outputs.date_time_value = answer.date_time_value;&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -2328,7 +2346,7 @@
         <sys_created_on>2024-06-04 14:43:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3525fc1647ea4610f6002430a46d43e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2336,7 +2354,7 @@
         <sys_scope display_value="Omny Studio Spoke">b53b449ddbb21090cb5ffb941d961980</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:43:12</sys_updated_on>
+        <sys_updated_on>2024-06-12 22:38:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2787,6 +2805,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>c2a2f01247ea4610f6002430a46d434d</sys_id>
         <latest_snapshot>2125fc1647ea4610f6002430a46d4389</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch7-hotfix1-03-05-2024_03-06-2024_1225.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch7-hotfix3b-05-23-2024_05-24-2024_1928.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
